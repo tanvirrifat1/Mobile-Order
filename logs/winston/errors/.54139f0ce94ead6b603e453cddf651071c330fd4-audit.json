@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\projects\\Mobile Order\\logs\\winston\\errors\\.54139f0ce94ead6b603e453cddf651071c330fd4-audit.json",
+    "files": [
+        {
+            "date": 1703053928186,
+            "name": "C:\\projects\\Mobile Order\\logs\\winston\\errors\\phu-2023-20-12-12-error.log",
+            "hash": "2639d0e86022c1c803c9003eca6d0e889a4ccdba82bb85d3db2eb5cc6c69f363"
+        },
+        {
+            "date": 1703056153359,
+            "name": "C:\\projects\\Mobile Order\\logs\\winston\\errors\\phu-2023-20-12-13-error.log",
+            "hash": "435a0ef483f51008174a896b3219340cf5bf5e0a904bdebab8e071930fb721e7"
+        },
+        {
+            "date": 1703062143425,
+            "name": "C:\\projects\\Mobile Order\\logs\\winston\\errors\\phu-2023-20-12-14-error.log",
+            "hash": "520e583de399f0b801fa22f07d4e4c91128f6d3fd9eafcf20c12b84b87ac088f"
+        },
+        {
+            "date": 1703062814575,
+            "name": "C:\\projects\\Mobile Order\\logs\\winston\\errors\\phu-2023-20-12-15-error.log",
+            "hash": "981b07fe19e285b96b064ca90c66fb7fd99b7621b156057fd14aa35011dabbcd"
+        }
+    ],
+    "hashType": "sha256"
+}

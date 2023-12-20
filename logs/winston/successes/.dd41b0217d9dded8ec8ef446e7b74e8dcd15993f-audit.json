@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\projects\\Mobile Order\\logs\\winston\\successes\\.dd41b0217d9dded8ec8ef446e7b74e8dcd15993f-audit.json",
+    "files": [
+        {
+            "date": 1703053928182,
+            "name": "C:\\projects\\Mobile Order\\logs\\winston\\successes\\phu-2023-20-12-12-success.log",
+            "hash": "bc06242848c1651cf8bbf5730cf09b5669a752633ec6ef92dae52ac58cf154f3"
+        },
+        {
+            "date": 1703056153353,
+            "name": "C:\\projects\\Mobile Order\\logs\\winston\\successes\\phu-2023-20-12-13-success.log",
+            "hash": "dc019508449c6ab9e2d8deb522b8dfb58710ffb81c3353c42e1401ee629782ae"
+        },
+        {
+            "date": 1703062143417,
+            "name": "C:\\projects\\Mobile Order\\logs\\winston\\successes\\phu-2023-20-12-14-success.log",
+            "hash": "4e039701be95ddb75e533f94c4a3b0cd2cf157cc802e7d3eabf23062ab301159"
+        },
+        {
+            "date": 1703062814571,
+            "name": "C:\\projects\\Mobile Order\\logs\\winston\\successes\\phu-2023-20-12-15-success.log",
+            "hash": "047e6ec43041bb659921e30466a39716f5e8690f85c09cba486f95d6d0d64bf0"
+        }
+    ],
+    "hashType": "sha256"
+}
