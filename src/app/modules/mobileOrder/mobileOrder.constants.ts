@@ -6,6 +6,7 @@ export const mobileSearchableFields = [
   'type',
   'processor',
   'memory',
+  'searchTerm',
 ];
 
 export const mobileFilterableFields = [

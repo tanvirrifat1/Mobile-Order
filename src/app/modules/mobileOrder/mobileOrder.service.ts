@@ -14,13 +14,12 @@ const getAllData = async (
   filters: IMobileFilters,
   paginationOptions: IPaginationOptions
 ): Promise<IGenericResponse<IMobile[]>> => {
-  // Extract searchTerm to implement search query
   const { searchTerm, ...filtersData } = filters;
   const { page, limit, skip } =
     paginationHelpers.calculatePagination(paginationOptions);
 
   const andConditions = [];
-  // Search needs $or for searching in specified fields
+
   if (searchTerm) {
     andConditions.push({
       $or: mobileSearchableFields.map(field => ({
@@ -31,7 +30,7 @@ const getAllData = async (
       })),
     });
   }
-  // Filters needs $and to fullfill all the conditions
+
   if (Object.keys(filtersData).length) {
     andConditions.push({
       $and: Object.entries(filtersData).map(([field, value]) => ({

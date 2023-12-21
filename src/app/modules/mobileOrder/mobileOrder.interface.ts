@@ -6,6 +6,7 @@ export type IMobile = {
   type: string;
   processor: string;
   memory: string;
+  rating: number;
 };
 
 export type IMobileFilters = {

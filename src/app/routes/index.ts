@@ -1,4 +1,5 @@
 import express from 'express';
+import { CartRoutes } from '../modules/cart/cart.routes';
 import { mobileOrderRouter } from '../modules/mobileOrder/mobileOrder.routes';
 
 const router = express.Router();
@@ -8,6 +9,10 @@ const moduleRoutes = [
   {
     path: '/mobile',
     route: mobileOrderRouter,
+  },
+  {
+    path: '/cart',
+    route: CartRoutes,
   },
 ];
 
