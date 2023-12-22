@@ -31,6 +31,9 @@ const mobileItem = new Schema<IMobile>(
       type: String,
       required: true,
     },
+    os: {
+      type: String,
+    },
     rating: {
       type: Number,
     },

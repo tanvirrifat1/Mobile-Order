@@ -1,21 +1,21 @@
 export const mobileSearchableFields = [
   'title',
   'name',
-  'details',
   'price',
   'type',
   'processor',
   'memory',
   'searchTerm',
+  'os',
 ];
 
 export const mobileFilterableFields = [
   'searchTerm',
   'title',
   'name',
-  'details',
   'price',
   'type',
   'processor',
   'memory',
+  'os',
 ];
